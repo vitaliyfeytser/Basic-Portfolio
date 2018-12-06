@@ -1,0 +1,47 @@
+
+#name-box {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    float: left;
+
+}
+
+.about-tab {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    float: right;
+
+}
+.porfolio-tab {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    float: right;
+
+}
+.contact-tab {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    float: right;
+
+}
+
+#text-box {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+#text-box:hover {
+    color: green;
+}
+#text-box:focus {
+    color: rgb(5, 9, 255);
+}
+#text-box:active {
+    color: rgb(223, 3, 3);
+}
+
