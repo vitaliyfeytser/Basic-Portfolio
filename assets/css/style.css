@@ -78,7 +78,7 @@ HTML, body {
 
 .tab {
     height: fit-content;
-    width: fit-content;
+    width: 80px;
     background-color: white;
     
     position: relative;
@@ -110,6 +110,13 @@ HTML, body {
 
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
 
 /* MAIN CONTENT BOX */
 /* ABOUT-TAB CSS */
@@ -211,6 +218,9 @@ HTML, body {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+
+    font-size: 20px;
+    color: #888888;
   }
 
   input[type=email], select, textarea {
@@ -219,6 +229,9 @@ HTML, body {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+
+    font-size: 20px;
+    color: #888888;
   }
   
   
@@ -235,8 +248,15 @@ HTML, body {
     border-radius: 4px;
     cursor: pointer;
     float: left;
+
+    font-size: 20px;
   }
   
+  ::placeholder {
+    color: #cccccc;
+  }
+
+  /* SUBMIT BUTTON */
   input[type=submit]:hover {
     background-color: #4fb8b2;
   }
@@ -251,6 +271,7 @@ HTML, body {
     float: left;
     width: 100%;
     margin-top: 6px;
+
   }
   
 
@@ -296,21 +317,11 @@ HTML, body {
     color: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 20px;
-    /* font-weight: bold; */
     text-align: center;
 
 
   }
 
-  /* .container {
-    border-radius: 5px;
-    background-color: #4aaaa5;
-    padding: 0px;
-    margin: 0px;
-
-    width: 300px;
-  } */
-  
 
 /* 
 #text-box:hover {
