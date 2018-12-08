@@ -123,6 +123,7 @@ HTML, body {
 
     padding: 30px;
     margin: auto;
+    margin-bottom: 88px;
     margin-top: 40px;
 
     position: relative;
@@ -175,17 +176,18 @@ HTML, body {
 /* FOOTER */
 
 #footer-box {
-    height: 100%;
+    left: 0;
+    bottom: 0;
     width: 100%;
     background-color: #666666;
 
     padding-top: 10px;
-    margin-top: 720px;
+    margin-top: 40px;
 
     border-top: 8px solid #4aaaa5;
     
     position: fixed;
-    float: inherit;
+    float: unset;
 
     color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -264,13 +266,13 @@ HTML, body {
     clear: both;
   }
 
-  /* PORTFOLIO-TAB CSS */
+  /* PORTFOLIO-TAB CSS - CARDS */
 
 .column {
     float: left;
     width: 31%;
     padding: 0% 1%;
-}
+  }
 
 .card {
     /* Add shadows to create the "card" effect */
@@ -285,11 +287,19 @@ HTML, body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
-  /* CLOSE CONTAINER GAP WITH CARD */
+  /* TEXT CONTAINER UNDER CARD */
   .container {
     margin-top: -10px;
     padding: 5px 16px;
     background-color: #4aaaa5;
+
+    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
+    /* font-weight: bold; */
+    text-align: center;
+
+
   }
 
   /* .container {
