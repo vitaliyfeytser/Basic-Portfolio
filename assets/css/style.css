@@ -7,13 +7,7 @@ HTML, body {
 
 }
 
-/* body {
-    background-image: url("/assets/images/light-grey-terrazzo.png")
-} */
-
-
 /* FULL PAGE CONTROLS */
-
 
 #main {
 
@@ -56,7 +50,6 @@ HTML, body {
     float: none;
 
 }
-
 
 /* NAV CONTENT & TABS */
 
@@ -119,6 +112,7 @@ HTML, body {
 
 
 /* MAIN CONTENT BOX */
+/* ABOUT-TAB CSS */
 
 #text-box {
     height: fit-content;
@@ -143,7 +137,7 @@ HTML, body {
 }
 
 
-#about-me-box {
+.content-label {
     height: 88px;
     width: 900px;
     background-color: white;
@@ -202,7 +196,111 @@ HTML, body {
 }
 
 
+/* CONTACT-TAB CSS */
 
+
+/* * {
+    box-sizing: border-box;
+  }
+   */
+  input[type=text], select, textarea {
+    width: 876px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type=email], select, textarea {
+    width: 876px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  
+  label {
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4fb8b2;
+  }
+  
+  .label {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+  .input-box {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+
+  /* Clear floats after the columns */
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content-label:after {
+    clear: both;
+  }
+
+  /* PORTFOLIO-TAB CSS */
+
+.column {
+    float: left;
+    width: 31%;
+    padding: 0% 1%;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* CLOSE CONTAINER GAP WITH CARD */
+  .container {
+    margin-top: -10px;
+    padding: 5px 16px;
+    background-color: #4aaaa5;
+  }
+
+  /* .container {
+    border-radius: 5px;
+    background-color: #4aaaa5;
+    padding: 0px;
+    margin: 0px;
+
+    width: 300px;
+  } */
+  
 
 /* 
 #text-box:hover {
