@@ -4,21 +4,24 @@ HTML, body {
     margin: 0px;
     padding: 0px;
     border: 0px;
+
 }
 
+/* body {
+    background-image: url("/assets/images/light-grey-terrazzo.png")
+} */
 
 
 /* FULL PAGE CONTROLS */
 
+
 #main {
+
    height: 100%;
     width: 100%;
-/* 
-    margin: 0px;
-    padding: 0px; 
-     */
+
     position: absolute;
-    float: none;
+    float: left;
 
 }
 
@@ -99,7 +102,7 @@ HTML, body {
 }
 
 .about-tab {
-    padding-left: 15px;
+    padding-right: 15px;
 
 }
 .porfolio-tab {
@@ -110,7 +113,7 @@ HTML, body {
     padding-right: 15px;
 }
 .contact-tab {
-    padding-right: 15px;
+    padding-left: 15px;
 
 }
 
@@ -136,7 +139,7 @@ HTML, body {
     font-size: 20px;
     text-align: left;
     line-height: 150%;
-    
+
 }
 
 
