@@ -4,104 +4,134 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Vitaliy's Profile Page</title>
+    <title>About Me</title>
     <!-- <link rel="stylesheet" href="reset.css"> -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </head>
 
 <!-- BACKGROUND IMAGE -->
-<body style="background-image:url(assets/images/light-grey-terrazzo.png)">
+<!-- <body style="background-image:url(assets/images/light-grey-terrazzo.png)"> -->
+
+<body class="p-3 mb-2 bg-dark text-secondary">
+
+    <div class="container">
+
+        <!-- BOOTSTRAP NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="./index.html">Vitaliy Feytser</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Homework Links
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./Basic-Portfolio (hw1)/">Basic Portfolio - hw1</a>
+                        <a class="dropdown-item" href="./Basic-Portfolio (hw2a-media-queries)/">Basic Portfolio - hw2 - Media Queries</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="./index.html">Current Portfolio</a>
+                    </div>
+                </li>
+                <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+                </li> -->
+            </ul>
+            </div>
+        </nav>
 
 
-    <!-- PAGE ALIGNMENT CONTAINER -->
-    <main id="main">
 
-        <header id="header-box"></header>
+        <!-- BOOTSTRAP CARDS -->
+        <div class="container">
 
-        <header id="header-box-center">
+            <div class="row" style="margin-top: 1rem;"\>
 
-                <div id="name-box">Vitaliy Feytser</div>
-
-                <!-- NAV TABS -->
-                <a href="contact.html" class="tab contact-tab" >Contact</a>
-                <a href="portfolio.html"class="tab porfolio-tab">Portfolio</a>
-                <a href="index.html"class="tab about-tab">About</a>
-
-        </header>
-
-        <!-- MAIN CONTENT BOX - CARDS -->
-        <article id="text-box">
-
-    
-            <div class="content-label">Portfolio</div>
-
-            <div class="row">
-
-                <div class="column">
-                    <div class="card">
-                        <img src="./assets/images/manhattan.jpeg" alt="Central Park" style="width:100%">
-                        <div class="container">
-                            <h2><b>Central Park</b></h2> 
-                            <p>New York, NY</p> 
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/images/manhattan.jpeg" alt="Central Park">
+                        <div class="card-body">
+                            <h5 class="card-title">Central Park</h5>
+                            <p class="card-text">New York, NY</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
                 </div>
                 
-                <div class="column">
-                    <div class="card">
-                        <img src="./assets/images/sunset.jpg" alt="Sunset" style="width:100%">
-                        <div class="container">
-                            <h2><b>Sister & Sunset</b></h2> 
-                            <p>San Diego, CA</p> 
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/images/sunset.jpg" alt="Sister and Sunset">
+                        <div class="card-body">
+                            <h5 class="card-title">Sister & Sunset</h5>
+                            <p class="card-text">San Diego, CA</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
                 </div>
                 
-                <div class="column">
-                    <div class="card">
-                        <img src="./assets/images/liberty.jpeg" alt="Liberty" style="width:100%">
-                        <div class="container">
-                            <h2><b>Lady Liberty</b></h2> 
-                            <p>New York, NY</p> 
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/images/liberty.jpeg" alt="Lady Liberty">
+                        <div class="card-body">
+                            <h5 class="card-title">Lady Liberty</h5>
+                            <p class="card-text">New York, NY</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
                 </div>
                 
-                <div class="column">
-                    <div class="card">
-                        <img src="./assets/images/storm-trooper.jpeg" alt="Storm-Trooper" style="width:100%">
-                        <div class="container">
-                            <h2><b>Storm-Trooper</b></h2> 
-                            <p>Shawnee, VA</p> 
+            </div>
+
+            <!-- <div class="row"></div>
+            <div class="col-12" style="height: 1rem;"></div> -->
+
+            <div class="row" style="margin-top: 2rem;">
+
+                <div class="col-sm-4" >
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/images/storm-trooper.jpeg" alt="Storm-Trooper">
+                        <div class="card-body">
+                            <h5 class="card-title">Storm-Trooper</h5>
+                            <p class="card-text">Shawnee, VA</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
                 </div>
-
-                                
-                <div class="column">
-                    <div class="card">
-                        <img src="./assets/images/daisy.jpeg" alt="Daisy" style="width:100%">
-                        <div class="container">
-                            <h2><b>My Pup Daisy</b></h2> 
-                            <p>Citrus Heights, CA</p> 
+                
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/images/daisy.jpeg" alt="My Pup Daisy">
+                        <div class="card-body">
+                            <h5 class="card-title">My Pup Daisy</h5>
+                            <p class="card-text">Citrus Heights, CA</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
                 </div>
+                
+            </div>
 
-            </div>    
+        </div>
 
-        </article>
-        
-
-        <!-- FOOTER -->
-        <footer id="footer-box">
-            <p>@VitaliyFeytser</p>
-        </footer>
-
-    </main>
+    </div>
 
 
-    
 </body>
