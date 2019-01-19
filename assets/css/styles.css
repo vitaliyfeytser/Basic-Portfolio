@@ -1,0 +1,19 @@
+.media {
+    flex-flow: wrap;
+}
+
+#my-pic {
+    width: 12em;
+    margin-bottom: 1em; 
+}
+
+
+/* PORTFOLIO - CARDS */
+
+.row {
+    margin-top: 1em;
+}
+
+.card {
+    width: 8em;
+}
